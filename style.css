@@ -12,7 +12,7 @@
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
 
-  --brand-baige: hsl(39, 100%, 97%);
+  --brand-baige: hsl(36, 45%, 98%);
   --brand-light: hsl(calc(var(--hue) - 22), 23%, 89%);
   --brand-light-2: hsl(calc(var(--hue) + 10), 14%, 97%);
   --brand-dark: hsl(var(--hue), 100%, 14%);
@@ -437,7 +437,7 @@ footer {
   background-color: var(--primary-color);
   padding-block: 6rem;
 
-  text-align: left;
+  text-align: center;
 
   color: var(--brand-baige);
 }
@@ -463,7 +463,7 @@ footer p {
 }
 
 footer .social-links {
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 /*===== BACK TO TOP BUTTON =====================================*/
